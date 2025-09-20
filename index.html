@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <!-- 'active' class is now handled by JavaScript -->
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#contact">Contact</a>
+            <a href="services.html" target="_main">Services</a>
+        </nav>
+    </header>
+
+    <!-- ... (rest of your home, about, experience, skills, projects, certificates, contact sections remain unchanged) ... -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Rachit Gupta</h1>
+            <h3>And I'm an <span class="text">Web Developer</span></h3>
+            <p>
+            I'm an aspiring Web developer focused on building responsive, efficient, and easy-to-use websites with Html, Tailwind Css, React, Node.js
+            </p>
+            <div class="home-sci">
+                <a class="icon" href="https://github.com/rachitgupta11" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a class="icon" href="https://www.linkedin.com/in/rachitgupta05/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a class="icon" href="https://www.instagram.com/rachit_gupta90/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="#about" class="btn-box">More About Me</a>
+            <a href="https://drive.google.com/file/d/13zL9tRNb-myYYDhP1YE0rVY-h4MJX9Gl/view?usp=drive_link" target="_main" class="btn-box">Download Resume</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div>
+            <img src="profile.png" height="400px" width="400px" />
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Web Developer!</h4>
+            <p>
+            As a Web Developer specializing in Html, Tailwind Css, React, Node.js. I build responsive, efficient, and user-friendly websites and applications with a focus on clean code and performance.My goal is to deliver reliable and scalable results that help businesses and users succeed.
+            </p>
+            <a href="#contact" class="btn-box">Connect with Me</a>
+        </div>
+    </section>
+
+    <!-- <section id="experience" class="experience">
+        <h1 class="sub-title">My<span> Experience</span></h1>
+        <div class="experience-content">
+            <div class="experience-item">
+                <h3>Android Developer Intern</h3>
+                <h4>OCENEXVR (OPC) PRIVATE LIMITED</h4>
+                <p class="experience-duration">Aug 2025 - Aug 2025 | Palakkad, Kerala, India (Remote)</p>
+                <ul>
+                    <li>Developed a full-stack, offline-first mobile inspection solution for maritime professionals using Kotlin, Room, and Coroutines.</li>
+                    <li>Architected and migrated a secure WordPress backend with a custom REST API for complex user role management.</li>
+                    <li>Implemented a dynamic UI with real-time data synchronization using ViewModel and LiveData.</li>
+                </ul>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="skills" class="skills">
+        <h1 class="sub-title">My<span> Skills</span></h1>
+        <div class="skills-wrapper">
+            <div class="container1">
+                <h1 class="heading1">Technical Skills</h1>
+                <div class="Technical-bars">
+                    <div class="bar">
+                        <i class='bxl  bx-html5'  style='color:#b82c2c'></i>  
+                        <div class="info"><span>HTML</span></div>
+                        <div class="progress-line html"><span></span></div>
+                    </div>
+                    <div class="bar">
+                        <i class='bxl  bx-css3'  style='color:#4445f2'></i> 
+                        <div class="info"><span>CSS</span></div>
+                        <div class="progress-line css"><span></span></div>
+                    </div>
+                    <div class="bar">
+                        <i class='bxl  bx-javascript'  style='color:#d6c635'></i> 
+                        <div class="info"><span>Javascript</span></div>
+                        <div class="progress-line javascript"><span></span></div>
+                    </div>
+                    <div class="bar">
+                        <i class='bxl  bx-react'  style='color:#1770d9'></i> 
+                        <div class="info"><span>React</span></div>
+                        <div class="progress-line react"><span></span></div>
+                    </div>
+                    <div class="bar">
+                        <i class='bxl  bx-nodejs'  style='color:#11671d'></i> 
+                        <div class="info"><span>Node.js</span></div>
+                        <div class="progress-line nodejs"><span></span></div>
+                    </div>
+                    <div class="bar">
+                        <i style="color:#4CAF50" class="fa-brands fa-java"></i>
+                        <div class="info"><span>Java</span></div>
+                        <div class="progress-line java"><span></span></div>
+                    </div>
+                    <div class="bar">
+                        <i style="color:#0ef" class="fa-brands fa-github"></i>
+                        <div class="info"><span>Github</span></div>
+                        <div class="progress-line github"><span></span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container1">
+                <h1 class="heading1">Professional Skills</h1>
+                <div class="radial-bars">
+                    <div class="radial-bar" data-percentage="90"><svg viewBox="0 0 200 200"><circle class="progress-bar" cx="100" cy="100" r="80"></circle><circle class="path path-1" cx="100" cy="100" r="80"></circle></svg><div class="percentage">90%</div><div class="text">Creativity</div></div>
+                    <div class="radial-bar" data-percentage="50"><svg viewBox="0 0 200 200"><circle class="progress-bar" cx="100" cy="100" r="80"></circle><circle class="path path-1" cx="100" cy="100" r="80"></circle></svg><div class="percentage">50%</div><div class="text">Communication</div></div>
+                    <div class="radial-bar" data-percentage="75"><svg viewBox="0 0 200 200"><circle class="progress-bar" cx="100" cy="100" r="80"></circle><circle class="path path-1" cx="100" cy="100" r="80"></circle></svg><div class="percentage">75%</div><div class="text">Problem Solving</div></div>
+                    <div class="radial-bar" data-percentage="85"><svg viewBox="0 0 200 200"><circle class="progress-bar" cx="100" cy="100" r="80"></circle><circle class="path path-1" cx="100" cy="100" r="80"></circle></svg><div class="percentage">85%</div><div class="text">Teamwork</div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="project">
+        <h1 class="sub-title">My<span> Projects</span></h1>
+        <div class="project-content">
+            <div class="row">
+                <img src="currency.png">
+                <div class="layer">
+                    <h5>Currency Convertor</h5>
+                    <p>Set up a live exchange rate API to get and update accurate, real-time currency information.</p>
+                    <a href="https://rachitgupta05.github.io/currency-convertor/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <!-- <div class="row">
+                <img src="image copy 2.png">
+                <div class="layer">
+                    <h5>Weather Web App</h5>
+                    <p>A React-based weather forecasting app with real-time updates.</p>
+                    <a href="https://github.com/VaibhavGupta-1/WeatherApp" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div> -->
+            <div class="row">
+                <img src="todo.png">
+                <div class="layer">
+                    <h5>Task Management- Offline Todo App</h5>
+                    <p>An offline-first task manager using React, Tailwind CSS, Javascript.</p>
+                    <a href="https://rachitgupta05.github.io/task-management/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <img src="password.png">
+                <div class="layer">
+                    <h5>Password Generator</h5>
+                    <p> Created a complete password policy validation engine that supports variable length, special characters, and digits.</p>
+                    <a href="https://rachitgupta05.github.io/password-generator/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="certificates">
+        <h1 class="sub-title">My<span> Certificates</span></h1>
+        <div class="certificates-content">
+            <div class="certificate-item">
+                <h3>TCS iON Career Edge- Young Professional</h3>
+                <p>Issued by: TCS</p>
+                <p>Date: September 2025</p>
+                <a href="https://drive.google.com/file/d/1syNiKmVglz03-dfDCCnnfT3WzMOJX0vd/view?usp=drivesdk" target="_blank">View Certificate</a>
+            </div>
+            <!-- <div class="certificate-item">
+                <h3>Data Analytics with python</h3>
+                <p>Issued by: IIT Roorkee</p>
+                <p>Date: March 2024</p>
+                <a href="https://drive.google.com/file/d/1JgTDAV_Eli4mUos6L7oKMYB2Gt7UWw84/view?usp=drivesdk" target="_blank">View Certificate</a>
+            </div>
+            <div class="certificate-item">
+                <h3>Introduction to Industry 4.0 and Internet of things</h3>
+                <p>Issued by: IIT Kharagpur</p>
+                <p>Date: September 2024</p>
+                <a href="https://drive.google.com/file/d/1JYNeWEdsv9caKmBVF66de8aFf-vpNVkF/view?usp=drivesdk" target="_blank">View Certificate</a>
+            </div>
+            <div class="certificate-item">
+                <h3>AWS Academy Cloud Foundations</h3>
+                <p>Issued by: Amazon Web Services</p>
+                <p>Date: August 2025</p>
+                <a href="https://www.credly.com/badges/2f308025-18ce-405a-b4a1-4c5f6f52855a/linked_in_profile" target="_blank">View Certificate</a>
+            </div>
+            <div class="certificate-item">
+                <h3>Generative AI Virtual Internship</h3>
+                <p>Issued by: IBM</p>
+                <p>Date: July 2024</p>
+                <a href="https://courses.ibmmooc.skillsnetwork.site/certificates/f942b714eef646b98be214e555bc60a5" target="_blank">View Certificate</a>
+            </div>
+            <div class="certificate-item">
+                <h3>Introduction to Android Mobile Application Development</h3>
+                <p>Issued by: Meta (via Coursera)</p>
+                <p>Date: February 2025</p>
+                <a href="https://www.coursera.org/account/accomplishments/verify/7QS502LW6KMP" target="_blank">View Certificate</a>
+            </div> -->
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span> Me</span></h2>
+            <h4>Let’s Build Together</h4>
+            <p>I’m always open to discussing new projects, collaborations, or opportunities to bring ideas to life through code. Feel free to reach out—I’d be happy to connect!
+            </p>
+            <div class="contact-icons">
+                <a href="https://www.instagram.com/rachit_gupta90/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/rachitgupta11" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/rachitgupta05/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form id="form" action="https://formspree.io/f/xldwqzgr" method="POST">
+                <input name="name" type="text" placeholder="Enter Your Name" required>
+                <input name="email" type="email" placeholder="Enter Your Email" required>
+                <input name="subject" type="text" placeholder="Enter Your Subject">
+                <textarea name="message" cols="30" rows="5" placeholder="Enter Your Message"></textarea>
+                <input type="submit" value="Submit" class="send">
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Copyright &copy; 2025 by Rachit Gupta | All rights Reserved.</p>
+    </footer>
+
+    <!-- SCRIPT FOR ACTIVE NAV LINK ON SCROLL -->
+    <script>
+        let sections = document.querySelectorAll('section');
+        let navLinks = document.querySelectorAll('header .navbar a');
+
+        window.onscroll = () => {
+            sections.forEach(sec => {
+                let top = window.scrollY;
+                let offset = sec.offsetTop - 150;
+                let height = sec.offsetHeight;
+                let id = sec.getAttribute('id');
+
+                if (top >= offset && top < offset + height) {
+                    navLinks.forEach(links => {
+                        links.classList.remove('active');
+                        document.querySelector('header .navbar a[href*=' + id + ']').classList.add('active');
+                    });
+                };
+            });
+        };
+    </script>
+</body>
+</html>
