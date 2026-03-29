@@ -726,3 +726,29 @@ form textarea:focus {
     margin-bottom: 10px;
     color: #ccc;
 }
+
+.project-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* space between buttons */
+    margin-top: 15px;
+}
+
+.project-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background: #00f7ff; /* your cyan color */
+    color: black;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+.project-links a:hover {
+    transform: scale(1.1);
+    background: #00c2cc;
+}
