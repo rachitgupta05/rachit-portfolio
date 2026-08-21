@@ -256,10 +256,13 @@ body {
 .progress-line.html span { width: 90%; }
 .progress-line.css span { width: 95%; }
 .progress-line.javascript span { width: 85%; }
-.progress-line.react span { width: 70%; }
-.progress-line.nodejs span { width: 50%; }
-.progress-line.java span { width: 75%; }
-.progress-line.github span { width: 50%; }
+.progress-line.react span { width: 85%; }
+.progress-line.nodejs span { width: 70%; }
+.progress-line.expressjs span { width: 80%; }
+.progress-line.mongodb span { width: 70%; }
+.progress-line.firebase span { width: 85%; }
+.progress-line.java span { width: 80%; }
+.progress-line.github span { width: 80%; }
 
 .radial-bars {
     width: 100%;
@@ -306,7 +309,7 @@ body {
 
 .radial-bar[data-percentage="90"] .path-1 { stroke-dashoffset: calc(502 - (502 * 90 / 100)); }
 .radial-bar[data-percentage="65"] .path-1 { stroke-dashoffset: calc(502 - (502 * 65 / 100)); }
-.radial-bar[data-percentage="75"] .path-1 { stroke-dashoffset: calc(502 - (502 * 75 / 100)); }
+.radial-bar[data-percentage="70"] .path-1 { stroke-dashoffset: calc(502 - (502 * 70 / 100)); }
 .radial-bar[data-percentage="85"] .path-1 { stroke-dashoffset: calc(502 - (502 * 85 / 100)); }
 
 .radial-bar .percentage {
